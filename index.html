@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>My TicTacToe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <h3 class="text-center" id="headerText">My Tic-Tac-Toe</h3>
+  <h3 class="text-center" id="text"></h3>
+  <div class="text-center" id="mainDiv"> 
+    <button class="btn btn-info select symbol" id="X" onClick="assignSymbols(this.id)">X</button>
+    <button class="btn btn-success" id="start" onClick="startGame()">Start</button>
+    <button class="btn btn-info select symbol" id="O" onClick="assignSymbols(this.id)">O</button>
+    <table align="center">
+      <tr>
+      <td>  
+        <button class="grid" id="0" onClick="main(this.id)"></button>
+      </td>
+      <td>  
+        <button class="grid" id="1" onClick="main(this.id)"></button>
+      </td>
+      <td>
+        <button class="grid" id="2" onClick="main(this.id)"></button>
+      </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <button class="grid" id="3" onClick="main(this.id)"></button>
+        </td>
+        <td>
+          <button class="grid" id="4" onClick="main(this.id)"></button>
+        </td>
+        <td>
+          <button class="grid" id="5" onClick="main(this.id)"></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="grid" id="6" onClick="main(this.id)"></button>
+        </td>
+        <td>
+          <button class="grid" id="7" onClick="main(this.id)"></button>
+        </td>
+        <td>
+          <button class="grid" id="8" onClick="main(this.id)"></button>
+        </td>
+      </tr>
+  </table>
+  </div>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
